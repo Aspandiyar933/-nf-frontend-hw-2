@@ -10,7 +10,7 @@ const TaskItem = ({ task, onToggleTask, onDeleteTask }) => {
           onClick={() => onToggleTask(task.id)} 
         >
           <Image
-            src={task.completed ? "/hands.svg" : "/pan.svg"}
+            src={task.completed ? "/hands.svg" : "/pen.svg"}
             alt="Task status"
             width={30}
             height={30}
